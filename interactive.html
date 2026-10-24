@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demonstration 2 - Interactive Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html">Ex 4.1: SVG Primitives</a>
+        <a href="barchart.html">Ex 4.3-4.6: Data Binding</a>
+        <a href="interactive.html" class="active">Ex 5 & 6: Interactive Dashboard</a>
+    </nav>
+
+    <div class="fade-in container">
+        <h1>Exercise 5 & 6: Analytical Dashboard</h1>
+        <p class="subtitle">Comprehensive data visualization featuring interactivity, filtering algorithms, and tooltips.</p>
+        
+        <div id="error-msg" style="color: #f43f5e; text-align: center; font-weight: 600;"></div>
+
+        <h2>Ex 6.1 & 6.2: Energy Distribution (Histogram & Filtering)</h2>
+        <div id="filters_screen" style="text-align: center; margin-bottom: 15px;"></div>
+        <div id="histogram_chart" class="chart-container"></div>
+
+        <h2>Ex 6.3 & 6.4: Efficiency Correlation (Scatterplot & Tooltips)</h2>
+        <div id="scatterplot_chart" class="chart-container"></div>
+
+        <h2>Ex 5.2: Average Energy by Rating (Line Chart)</h2>
+        <div id="line_chart" class="chart-container"></div>
+
+        <h2>Ex 5.3: Market Share by Panel Size (Donut Chart)</h2>
+        <div id="donut_chart" class="chart-container"></div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
